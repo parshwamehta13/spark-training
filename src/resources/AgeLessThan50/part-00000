@@ -1,0 +1,8 @@
+id,vital,diagnosis,procedure,name,age
+1,Ok,,,Ramesh,23
+1,,123.3,234.5,Ramesh,23
+1,,23.12,235.6,Ramesh,23
+2,Bad,,,Suresh,34
+2,,4356.3,135.6,Suresh,34
+2,,4316.3,15.6,Suresh,34
+null,null,null,null,Kalpesh,12

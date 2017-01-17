@@ -1,0 +1,4 @@
+id,vital,diagnosis,procedure,name,age
+1,Ok,,,Ramesh,23
+1,,123.3,234.5,Ramesh,23
+1,,23.12,235.6,Ramesh,23
