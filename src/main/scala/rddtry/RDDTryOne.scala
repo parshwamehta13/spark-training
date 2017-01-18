@@ -49,7 +49,10 @@ object RDDTryOne {
     //wordCountRDD.foreach(println)
     // Saving the Frequency Plot in text file
     //val writer1 = new PrintWriter(new File("WordCount.csv"))
-    wordCountRDD.coalesce(1,true).saveAsTextFile("Word Frequency")
+    val wordCount = wordCountRDD.coalesce(1,true).collect()
+    val writer1 = new PrintWriter(new File("WordCount.csv"))
+    wordCount.foreach(x=>writer1.write(x._1+","+x._2+"\n"))
+
     //writer1.close()
     // Assignment 2 top 50 Percentile
 

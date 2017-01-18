@@ -4,7 +4,7 @@
 		module="sparkhandson$sbt_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20170117122111"
+		publication="20170118113409"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

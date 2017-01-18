@@ -4,7 +4,7 @@
 		module="sparkhandson$sources_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20170117122112"
+		publication="20170118113411"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
